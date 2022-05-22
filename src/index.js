@@ -1,3 +1,4 @@
+import { promiseAllExample } from "./promises";
 // Call, apply, bind
 let person = {
   firstName: "Adam",
@@ -36,3 +37,5 @@ console.log(p3);
 // The bind method returns a copy of the function which can be invoked later
 let p4 = person.printFullName.bind({ firstName: "Aryama", lastName: "Sarkar" });
 console.log(p4("23", "Tesla"));
+
+promiseAllExample();
